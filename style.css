@@ -122,3 +122,13 @@ p {
 .post-container:nth-child(even) {
   background-color: #BDBDBD;
 }
+
+@media screen and (max-width:1100px) {
+   .responsive-left {
+     margin-left: 15px;
+   }
+
+   .responsive-right {
+     margin-right: 15px;
+   }
+}
